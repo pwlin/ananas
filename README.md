@@ -1,4 +1,7 @@
-ananas
+Ananas
 ======
 
-Ananas - Experimental NodeJs Web Server
+An Experimental NodeJs Web Server
+
+======
+
