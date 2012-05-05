@@ -14,4 +14,6 @@ results
 node_modules
 npm-debug.log
 .project
-config.js
+config.json
+.settings
+
