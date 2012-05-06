@@ -1,7 +1,7 @@
 Ananas
 ======
 
-An Experimental NodeJS Web Server
+An Experimental NodeJS Web Server.
 
 
 
