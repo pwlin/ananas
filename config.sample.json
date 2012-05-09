@@ -9,14 +9,14 @@
 			"www_root" : "./www-example/default/",
 			"directory_listing" : true,
 			"directory_index" : "index.html",
-	        "private_uri" : "^\\/secret|^\\/example1\\/secret"
+	        "private_uri" : "^\\/secret|^\\/folder1\\/secret"
 		},
 		
 		"localhost.dev" : {
 			"www_root" : "./www-example/localhost.dev/",
 			"directory_listing" : true,
 			"directory_index" : "index.html",
-			"private_uri" : "^\\/secret|^\\/example1\\/secret"
+			"private_uri" : "^\\/secret|^\\/folder1\\/secret"
 		}
 			
 	}
