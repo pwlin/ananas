@@ -14,9 +14,9 @@ An Experimental NodeJS Web Server.
 
 ## Usage
 1. copy config.sample.json to config.json
-2. review config.js and modify `http_port` if you like
+2. review config.json and modify `http_port` if you like
 2. run:
-<pre>node server config.js</pre>
+<pre>node server config.json</pre>
 
 ## License
 [MIT] (http://www.opensource.org/licenses/mit-license.php)
