@@ -1,0 +1,24 @@
+{ 	
+	"http_port" : 8080,
+	"server_name" : "Ananas",
+	/*"server_name" : "Apache/1.3.33 (Win32)",*/
+		
+	"vhosts" : {
+		
+		"default" : {
+			"www_root" : "./www-example/default/",
+			"directory_listing" : true,
+			"directory_index" : "index.html",
+	        "private_uri" : "^\\/secret|^\\/example1\\/secret"
+		},
+		
+		"localhost.dev" : {
+			"www_root" : "./www-example/localhost.dev/",
+			"directory_listing" : true,
+			"directory_index" : "index.html",
+			"private_uri" : "^\\/secret|^\\/example1\\/secret"
+		}
+			
+	}
+	
+}
