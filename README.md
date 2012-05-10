@@ -1,6 +1,9 @@
 ## Ananas
-An Experimental NodeJS Web Server.
+**An Experimental NodeJS Web Server.**
+
 ![directory listing](http://i.imgur.com/HFtxn.png)
+
+
 ## Features
 - Static file serving
 - Apache-like directory listing with appropriate content-type icons
