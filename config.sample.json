@@ -9,7 +9,7 @@
 			"www_root" : "./www-example/default/",
 			"directory_listing" : true,
 			"directory_index" : "index.html",
-	        "private_uri" : "^\\/secret|^\\/folder1\\/secret"
+	        	"private_uri" : "^\\/secret|^\\/folder1\\/secret"
 		},
 		
 		"localhost.dev" : {
@@ -18,7 +18,6 @@
 			"directory_index" : "index.html",
 			"private_uri" : "^\\/secret|^\\/folder1\\/secret"
 		}
-			
+		
 	}
-	
 }
