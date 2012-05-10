@@ -1,23 +1,15 @@
 /**
  * 
- * Usage: 
- * node server.js [config_file]
- *    
+ * Usage: node server.js [config_file]
+ * 
  */
 
-// check if a configuration file is passed as argument
+//check if a configuration file is passed as argument
 if (!process.argv[2]) {
-    console.error("Usage: node server.js [config_file]\nNo configuration file was passed as argument.\nExiting...");
+    console.log('Usage: node server.js [config_file]');
+    console.error('No configuration file was passed as argument. Exiting...');
     process.exit();
-} 
-else {
+} else {
     var server = require('./lib/ananas/index.js');
     server.init(process.argv[2]);
 }
-
-
-
-
-
-
-
