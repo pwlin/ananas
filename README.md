@@ -1,7 +1,7 @@
 ## Ananas
 **An Experimental NodeJS Web Server.**
 
-![directory listing](https://a248.e.akamai.net/camo.github.com/62590934d753d230b9c3f78bcf4d6448d7955846/687474703a2f2f692e696d6775722e636f6d2f484674786e2e706e67)
+![directory listing](http://i.imgur.com/ZL0as.png)
 
 
 ## Features
