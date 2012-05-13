@@ -18,7 +18,7 @@
             "www_root" : "./www-example/localhost.dev/",
             "directory_listing" : true,
             "directory_index" : "index.html",
-            "private_uri" : "^\\/secret|^\\/folder1\\/secret",
+            "private_uri" : "^\\/secret|^\\/folder1\\/secret|^\\/example_dynamic",
             "routes" : {
                 "/dynamic1/test1.js" : {
                     "map_to" : "../../www-example/localhost.dev/example_dynamic/index.js",
