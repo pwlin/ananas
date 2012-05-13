@@ -1,6 +1,7 @@
 { 	
     "bind_ip" : "127.0.0.1",
-    "bind_port" : 8080,
+    "bind_port" : "8080",
+    "app_status" : "dev",
     "server_name" : "Ananas",
     /* "server_name" : "Apache/1.3.33 (Win32)", */
 
@@ -17,7 +18,13 @@
             "www_root" : "./www-example/localhost.dev/",
             "directory_listing" : true,
             "directory_index" : "index.html",
-            "private_uri" : "^\\/secret|^\\/folder1\\/secret"
+            "private_uri" : "^\\/secret|^\\/folder1\\/secret",
+            "routes" : {
+                "/dynamic1/test1.js" : {
+                    "map_to" : "../../www-example/localhost.dev/example_dynamic/index.js",
+                    "content_type" : "text/javascript; charset=utf-8"
+                }                
+            }
         },
         
         "localhost2.dev" : {

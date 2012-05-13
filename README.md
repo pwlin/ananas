@@ -6,6 +6,7 @@
 
 ## Features
 - Static file serving
+- Routing and dynamic requests
 - Apache-like directory listing with appropriate content-type icons
 - Virtual hosts
 - Proper `Date`, `Last-Modified`, `Content-Type` and `Content-Length` headers
@@ -13,7 +14,6 @@
 
 ##TODO
 - Documentation
-- Routing & dynamic pages
 
 ## Usage
 1. copy config.sample.json to config.json
