@@ -1,7 +1,7 @@
 /**
- * 
- * Usage: node server.js <config_file>
- * 
+ * Ananas web server
+ * @example node server.js <config_file>
+ * @see config.sample.json
  */
 
 //check if a configuration file is passed as argument
