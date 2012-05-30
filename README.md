@@ -19,7 +19,7 @@
 1. copy config.sample.json to config.json
 2. review config.json and modify `bind_port` if you like
 2. run:
-<pre>node server config.json</pre>
+<pre>node server.js config.json</pre>
 
 ## License
 [MIT] (http://www.opensource.org/licenses/mit-license.php)
